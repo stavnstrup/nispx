@@ -1,0 +1,35 @@
+{
+    "swagger": "2.0",
+    "info": {
+        "version": "0.1",
+        
+    },
+    "paths": {
+        "standard/{stdid}": {
+            "get": {
+                "parameters": [
+                    {
+                        "name": "stdid",
+                        "in": "path",
+                        "type": "string",
+                        "destription": "UUID of standard to retreive",
+                    }
+                ],
+                "description": "",
+                
+            }
+        },
+        "standards/": {
+            "get": {
+            }
+        },
+        "coverProfile/{pid}": {
+            "get": {
+            }
+        },        
+        "coverProfile/{pid}": {
+            "get": {
+            }
+        }
+    }
+}
